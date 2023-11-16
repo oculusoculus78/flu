@@ -692,13 +692,13 @@ elif [ -f /etc/redhat-release ]; then
     vernum=$(rpm -E %{rhel})
 
     # check is it centos 7
-    if [ $vernum == 7 ]; then
+    if [ $vernum == 9 ]; then
 
         # check zip folder existence
         if [ -f fluky.zip ]; then
 
-            # install fluky on centos 7
-            centos_7
+            # install fluky on centos 9
+            centos_9
 
             # remove installation files
             clear
