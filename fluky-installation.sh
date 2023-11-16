@@ -698,7 +698,7 @@ elif [ -f /etc/redhat-release ]; then
         if [ -f fluky.zip ]; then
 
             # install fluky on centos 9
-            centos_9
+            centos_7
 
             # remove installation files
             clear
